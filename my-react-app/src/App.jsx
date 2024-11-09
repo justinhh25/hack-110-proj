@@ -9,7 +9,7 @@ import Find from './pages/Find';
 function App() {
   let Component
   switch (window.location.pathname) {
-    case "/":
+    case "/Home":
       Component = <Home />
       break
     case "/Liked":

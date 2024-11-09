@@ -1,8 +1,13 @@
-import Topbar from "../components/topbar"
-export default function Home() {
+import './Home.css'
+
+function Home() {
     return (
         <>
-            <h1>Home</h1>
+            <div className="headers">
+                <p>Welcome to Heel Eats!</p>
+            </div>
         </>
     );
 }
+
+export default Home
