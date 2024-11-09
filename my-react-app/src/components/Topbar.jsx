@@ -7,7 +7,6 @@ function Topbar() {
             <nav className="topbar">
                 <a href="/Home">Home</a>
                 <a href="/Find">Find</a>
-                <a href="/Liked">Liked</a>
             </nav>
         </header>
     );

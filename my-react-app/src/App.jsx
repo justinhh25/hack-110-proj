@@ -9,6 +9,9 @@ import Find from './pages/Find';
 function App() {
   let Component
   switch (window.location.pathname) {
+    case"/":
+      Component= <Home />
+      break
     case "/Home":
       Component = <Home />
       break
