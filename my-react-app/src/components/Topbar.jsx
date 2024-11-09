@@ -7,6 +7,7 @@ function Topbar() {
             <nav className="topbar">
                 <a href="/Home">Home</a>
                 <a href="/Find">Find</a>
+                <input type="text" placeholder="Search..."></input>
             </nav>
         </header>
     );
