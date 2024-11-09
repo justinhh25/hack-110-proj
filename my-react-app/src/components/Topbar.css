@@ -35,3 +35,12 @@
 .topbar a:hover:before {
     width: 100%;
 }
+
+.topbar input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-left: 1320px;
+    border: none;
+    font-size: 13px;
+  }
+
