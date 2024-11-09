@@ -1,14 +1,21 @@
 import "./Topbar.css"
+import React from 'react'
 
 function Topbar() {
     return(
-        <>
-            <div className="topbar">
-                <h2>Home</h2>
-                <h2>Find</h2>
-                <h2>Liked</h2>
-            </div>
-        </>
+        <nav className="nav">
+            <ul>
+                <li>
+                    <a href="/Home">Home</a>
+                </li>
+                <li>
+                    <a href="/Find">Find</a>
+                </li>
+                <li>
+                    <a href="/Liked">Liked</a>
+                </li>
+            </ul>
+        </nav>
     );
 }
 
